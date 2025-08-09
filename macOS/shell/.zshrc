@@ -49,6 +49,7 @@ eval "$(rbenv init - zsh)"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export PATH="/Qt-6.8.3-static-install/bin:$PATH"
 export PATH="$HOME/kdesrc-build:$PATH"
+export CMAKE_PREFIX_PATH="$HOME/CraftRoot:$CMAKE_PREFIX_PATH"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/ymy/.lmstudio/bin"
