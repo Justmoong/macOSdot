@@ -15,7 +15,7 @@ ZSH_THEME="jonathan"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source ~/CraftRoot/craft/craftenv.sh
+#source ~/CraftRoot/craft/craftenv.sh
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -47,13 +47,7 @@ dot() {
 eval "$(rbenv init - zsh)"
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-export PATH="/Qt-6.8.3-static-install/bin:$PATH"
-export PATH="$HOME/kdesrc-build:$PATH"
 export CMAKE_PREFIX_PATH="$HOME/CraftRoot:$CMAKE_PREFIX_PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/ymy/.lmstudio/bin"
-# End of LM Studio CLI section
 
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/ymy/.docker/completions $fpath)
@@ -64,4 +58,3 @@ compinit
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-cd

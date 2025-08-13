@@ -22,4 +22,3 @@ export XDG_DATA_DIRS=/usr/local/kde4/share:/usr/local/share:/usr/share
 # MacPorts Installer addition on 2025-04-28_at_11:01:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
-
