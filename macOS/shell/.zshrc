@@ -58,3 +58,19 @@ compinit
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Qt & KDE & Craft environment
+
+export CMAKE_PREFIX_PATH="$HOME/CraftRoot:$HOME/kde/usr:$CMAKE_PREFIX_PATH"
+export CMAKE_PREFIX_PATH=$HOME/Qt/6.8.3/macos:$CMAKE_PREFIX_PATH
+export PATH="$HOME/CraftRoot/bin:$HOME/CraftRoot/dev-utils/bin:$HOME/kde/usr/bin:$HOME/kde/src/kdesrc-build:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+#export PKG_CONFIG_PATH="$HOME/kde/usr/lib/pkgconfig:$PKG_CONFIG_PATH"
+#export QML2_IMPORT_PATH="$HOME/kde/usr/lib/qml:$QML2_IMPORT_PATH"
+#export QT_PLUGIN_PATH="$HOME/kde/usr/lib/plugins:$QT_PLUGIN_PATH"
+#export DYLD_LIBRARY_PATH="$HOME/kde/usr/lib:$DYLD_LIBRARY_PATH"
+#export CMAKE_PREFIX_PATH=$HOME/kde/usr:$CMAKE_PREFIX_PATH
+#export QML2_IMPORT_PATH=$HOME/kde/usr/lib/qml:$QML2_IMPORT_PATH
+#export QT_PLUGIN_PATH=$HOME/kde/usr/lib/plugins:$QT_PLUGIN_PATH
+#export DYLD_LIBRARY_PATH=$HOME/kde/usr/lib:$DYLD_LIBRARY_PATH
+export CRAFTROOT="$HOME/CraftRoot"
+export PATH="$CRAFTROOT/bin:$PATH"
