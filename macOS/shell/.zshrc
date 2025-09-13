@@ -73,4 +73,6 @@ export PATH="$HOME/CraftRoot/bin:$HOME/CraftRoot/dev-utils/bin:$HOME/kde/usr/bin
 #export QT_PLUGIN_PATH=$HOME/kde/usr/lib/plugins:$QT_PLUGIN_PATH
 #export DYLD_LIBRARY_PATH=$HOME/kde/usr/lib:$DYLD_LIBRARY_PATH
 export CRAFTROOT="$HOME/CraftRoot"
+export PATH="$CRAFTROOT:$PATH"
 export PATH="$CRAFTROOT/bin:$PATH"
+export PATH="$CRAFTROOT/build:$PATH"
